@@ -5,6 +5,16 @@ export const MenuItemsData = [
     {
         title: 'Home',
         url: '/portfolio',
+        submenu: [
+            {
+                title: 'Tester1',
+                url: '/portfolio',
+            }, 
+            {
+                title: 'Tester2',
+                url: '/portfolio/res'
+            }
+        ]
     },
     {
         title: 'Resume',
