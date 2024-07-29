@@ -14,7 +14,7 @@ function Intro() {
             <Link className='link' to="res">Resume</Link>
           </p>
           <p>
-            <Link className='link' to="contact">Contact</Link>
+            <Link className='link' to="information/contact">Contact</Link>
           </p>
         </header>
       </div>

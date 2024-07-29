@@ -21,8 +21,18 @@ export const MenuItemsData = [
         url: '/portfolio/res',
     },
     {
-        title: 'Contact',
-        url: '/portfolio/contact'
+        title: 'Information',
+        url: '/portfolio/contact',
+        submenu: [
+            {
+                title: "About Me",
+                url: "/portfolio/information/about"
+            },
+            {
+                title: "Contact",
+                url:  "/portfolio/information/contact"
+            }
+        ]
     },
 ];
 // Add more as needed -> create page first
