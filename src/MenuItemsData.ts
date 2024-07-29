@@ -13,8 +13,8 @@ export const MenuItemsData = [
             {
                 title: 'Tester2',
                 url: '/portfolio/res'
-            }
-        ]
+            },
+        ],
     },
     {
         title: 'Resume',

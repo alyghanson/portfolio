@@ -109,7 +109,7 @@ header {
   list-style: none;
   background-color: #fff;
   border-radius: 0.5rem;
-  display: none;
+  /* display: none; */
 }
 
 .desktop-nav .dropdown.show {
