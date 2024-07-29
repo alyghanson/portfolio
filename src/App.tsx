@@ -5,6 +5,7 @@ import Res from './pages/Res';
 import Contact from './pages/Contact';
 import NoPage from './pages/NoPage';
 import Intro from "./pages/Intro";
+import Header from "./components/Header";
 
 // import Intro from "./pages/Intro.tsx"
 // import Layout from "./pages/Layout.tsx";
@@ -18,8 +19,8 @@ export default function App() {
       <Routes>
         <Route index element={<Intro />} />
         <Route path="portfolio" element={<Intro/>}/>
-        <Route path="portfolio/res" element={<Res />} />
-        <Route path="portfolio/contact" element={<Contact />} />
+        <Route path="portfolio/res" element={<Res/>} />
+        <Route path="portfolio/contact" element={<Contact/>} />
         <Route path="*" element={<NoPage />} />
       </Routes>
     </BrowserRouter>
